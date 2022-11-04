@@ -19,13 +19,17 @@ Product.init(
     },
     product_name: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
+      validate: {
+        notNull: true,
+      },
     },
     price: {
       type: DataTypes.DECIMAL,
       allowNull: false,
       validate: {
         isDecimal: true,
+        notNull: true,
       },
     },
     stock: {
@@ -34,6 +38,7 @@ Product.init(
       defaultValue: 10,
       validate: {
         isNumeric: true,
+        notNull: true,
       },
     },
     // needs to reference the category model's id
