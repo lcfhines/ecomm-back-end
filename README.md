@@ -52,6 +52,7 @@ Using Insomnia Core, all API routes should be tested.
 
 The walkthrough video below demonstrates the application's API routes being tested in Insomnia Core.
 
+[Untitled_ Nov 5, 2022 7_56 PM.webm](https://user-images.githubusercontent.com/113798073/200147629-ed991f08-e03e-4862-9ff2-2b47b079be40.webm)
 
 ## License
 
